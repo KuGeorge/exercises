@@ -1,0 +1,8 @@
+tmux
+
+
+sudo docker run --rm --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 127.0.0.1:5432:5432 postgres
+
+
+
+sudo docker run --name mongo-instance -p 27017:27017 mongo
